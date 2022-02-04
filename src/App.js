@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import Hello from './components/Hello.js';
-import Greg from './components/Greg';
 
 
 function App() {
@@ -9,7 +8,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Greg/>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
