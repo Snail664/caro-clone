@@ -1,0 +1,26 @@
+
+
+.CategorySlider {
+    display: block;
+    background-color:aqua;
+}
+
+.CategorySlider h1{
+    text-align: left;
+
+}
+
+.CategorySlider .card {
+    display: inline-block;
+    padding: 2px;
+    background-color:lightcoral;
+}
+
+.CategorySlider .card img {
+    width: 100px;
+    height: 100px;
+}
+
+.CategorySlider .card p {
+    margin: 0;
+}
