@@ -1,18 +1,14 @@
 import React from "react";
-
-import Card from "./CategorySliderComponents/Cards";
 import "./CategorySlider.css";
-
-
+import CardHolder from "./CategorySliderComponents/CardHolder";
 
 
 const CategorySlider = () => {
+
   return(
     <div class="CategorySlider">
       <h1>Explore Caro</h1>
-      <Card/>
-      <Card/>
-      <Card/>
+      <CardHolder/>
     </div>
 
   )

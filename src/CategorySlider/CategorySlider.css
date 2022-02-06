@@ -2,7 +2,8 @@
 
 .CategorySlider {
     display: block;
-    background-color:aqua;
+    background-color:rgb(211, 247, 247);
+    padding: 0 64px; 
 }
 
 .CategorySlider h1{
@@ -10,17 +11,62 @@
 
 }
 
+.CategorySlider .cardHolder {
+    display: block;
+    overflow: hidden;
+    background-color:rgb(247, 209, 209);
+    white-space:nowrap;
+    position: relative;
+
+
+}
+
 .CategorySlider .card {
     display: inline-block;
     padding: 2px;
-    background-color:lightcoral;
+    background-color:rgb(206, 245, 206);
+    width: 121px;
 }
 
 .CategorySlider .card img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 
 .CategorySlider .card p {
     margin: 0;
+    margin-top: 12px;
+}
+
+.CategorySlider .sliderArrow {
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:40px;
+    height:40px;
+    background-color: rgba(255, 0, 0, 0.8);
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+.CategorySlider .leftArrow {
+    left: 8px;
+}
+
+.CategorySlider .rightArrow {
+    right: 8px;
+}
+
+.arrowSVG{
+
+}
+
+.leftArrowSVG{
+    transform: rotate(180deg);
+}
+
+.rightArrowSVG{
+
 }
