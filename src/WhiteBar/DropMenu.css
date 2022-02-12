@@ -1,0 +1,155 @@
+.DpdMenu{
+    left: 300px;
+    position: absolute;
+    top: 46px;
+    max-height: 432px;
+    overflow: auto;
+    right: 0;
+    width: 300px;
+    padding: 12px 0;
+    margin-top: 8px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 8px 13px 0 rgb(44 44 45 / 27%);
+    z-index: 1;
+}
+
+.hlboxtext{
+    display: flex;
+    flex-direction: column-reverse;
+    max-height: 144px;
+    padding-bottom: 4px;
+    margin: -8px 12px 8px;
+    overflow: auto;
+    border-bottom: 1px solid #f0f1f1;
+}
+
+.Add1checked{
+    float: left;
+    max-width: 100%;
+    padding: 4px 8px 4px 12px;
+    margin: 4px 4px 4px 0;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #f0f1f1;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    border-radius: 24px;
+}
+
+p{
+    margin: 0;
+}
+
+.Add1text{
+    color: #57585a;
+    font-weight: 400;
+    text-align: left;
+    white-space: nowrap;
+    word-break: normal;
+    overflow-wrap: normal;
+    text-decoration: none;
+    overflow: hidden;
+    hyphens: auto;
+    text-overflow: ellipsis;
+}
+
+[type = button], button{
+    -webkit-appearance: button;
+}
+
+button{
+    overflow: visible;
+    text-transform: none;
+}
+
+.crossmark{
+    padding: 0 0 0 4px;
+    margin: 0 0 0 4px;
+    display: flex;
+    cursor: pointer;
+    transition: background-color .25s ease-in-out;
+    background-color: transparent;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+:not(svg) {
+    transform-origin: 0px 0px;
+}
+
+.item1, .item2{
+    padding: 3px 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.item1Text, .item2Text, .item3Text, .item4Text, .item5Text{
+    font-size: 16px;
+    line-height: 30px;
+    color: #2c2c2d;
+    font-weight: 400;
+    text-align: left;
+    white-space: normal;
+    word-break: normal;
+    overflow-wrap: normal;
+    text-decoration: none;
+    overflow: hidden;
+    hyphens: auto;
+    text-overflow: ellipsis;
+}
+
+.listing, .sg, .mrtImg, .areaImg, .nghImg{
+    width: 16px;
+    min-width: 16px;
+    height: 16px;
+    margin-right: 12px;
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.searchText{
+    padding: 10px 16px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #6d6e71;
+    font-weight: 400;
+    text-align: left;
+    white-space: normal;
+    word-break: normal;
+    overflow-wrap: normal;
+    text-decoration: none;
+    overflow: hidden;
+    hyphens: auto;
+    text-overflow: ellipsis;
+}
+
+.MRT, .Area, .Neighbourhood{
+    padding: 3px 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item3, .item4, .item5{
+    display: flex;
+    align-items: center;
+}
+
+.expand{
+    min-width: 24px;
+    margin-right: -8px;
+    fill: rgb(87, 88, 90);
+    height: 24;
+    width: 24;
+}

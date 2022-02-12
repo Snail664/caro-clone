@@ -1,0 +1,35 @@
+.aMenu{
+    left: 300px;
+    position: absolute;
+    top: 90px;
+    max-height: 432px;
+    overflow: auto;
+    right: 0;
+    width: 200px;
+    min-height: 222px;
+    padding: 12px 0;
+    margin-top: 8px;
+    margin-left: 201px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 8px 13px 0 rgb(44 44 45 / 27%);
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.label1{
+    padding-left: 10px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.label2{
+    padding-left: 10px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.tick{
+    cursor: pointer;
+}
