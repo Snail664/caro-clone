@@ -10,6 +10,29 @@
     margin: 0px 75px;
 }
 
+.slashed-price-carousel-row {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 17%;
+    margin: 0px 60px;
+}
+
+.slashed-price-carousel-row .prod-card-img {
+    height: 200px;
+    margin-top: 10px;
+    max-width: 200px;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.slashed-price-carousel-row .prod-card {
+    max-width: 210px;
+}
+
+.slashed-price-carousel-row .carou-protect-badge {
+    top: 177px;
+}
+
 .prod-list {
     display: flex;
     flex-wrap: wrap;
@@ -107,4 +130,20 @@ div.prod-card-header {
 
 .like-count {
     margin-left: 5px;
+}
+
+.view-more-button {
+    transition: background-color 0.5s;
+    background-color: transparent;
+    border-color: lightgray;
+    border-radius:5px;
+    border-width:1px;
+    padding: 10px 22px;
+    font-weight: 500;
+    font-size:medium;
+}
+
+.view-more-button:hover {
+    transition: background-color 0.5s;
+    background-color: lightgray;
 }
