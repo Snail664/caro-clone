@@ -5,8 +5,10 @@ import React from "react";
 const Card = ({tittle, imageSrc})=>{
     return(
         <div class="card">
-            <img src={imageSrc} alt="Hello"></img>
-            <p>{tittle}</p>
+            <div class="cardContent">
+                <img src={imageSrc} alt="Hello"></img>
+                <p>{tittle}</p>
+            </div>
         </div>
     )
 }

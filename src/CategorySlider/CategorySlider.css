@@ -22,10 +22,24 @@
 }
 
 .CategorySlider .card {
-    display: inline-block;
+    display: inline-flex;
     padding: 2px;
     background-color:rgb(206, 245, 206);
     width: 121px;
+    height: max-content;
+}
+
+.CategorySlider .cards {
+    transition: transform 400ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition-property: transform;
+    transition-duration: 400ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0ms;
+}
+
+.CategorySlider .cardContent{
+    width: 96px;
+    
 }
 
 .CategorySlider .card img {
@@ -36,6 +50,8 @@
 .CategorySlider .card p {
     margin: 0;
     margin-top: 12px;
+    white-space: normal;
+    font-size: small;
 }
 
 .CategorySlider .sliderArrow {
@@ -49,6 +65,8 @@
     top: 50%;
     transform: translateY(-50%);
     border-radius: 50%;
+
+    z-index: 1;
 }
 
 .CategorySlider .leftArrow {
