@@ -1,9 +1,12 @@
 import React from "react";
 import ProductCard from './ProductListComponents/ProductCard';
+
 import './ProductsList.css';
-import productObj from './ProductListComponents/products.json';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+
 import { Carousel } from 'react-responsive-carousel';
+
+import productObj from './ProductListComponents/products.json';
 
 const ProductList = () => {
   const newProdObj = [];
@@ -15,12 +18,12 @@ const ProductList = () => {
 
   return <div className="product-section">
     <p className="slashed-prices section-header">Slashed Prices</p>
-    <Carousel infiniteLoop={true}>
+    <Carousel infiniteLoop={true} showStatus={false} showIndicators={false}>
     {newProdObj.map((row)=> {
       return (
         <div className="slashed-price-carousel-row">
           {row.map((item)=>{
-            return <ProductCard item={item} />
+            return <ProductCard {...item} />
           })}
         </div>
       )
@@ -29,7 +32,7 @@ const ProductList = () => {
     <div className="recommended-for-you">
       <p className="section-header">Recommended For you</p>
       <div className="prod-list">
-        {productObj.map((item)=>{ return (<ProductCard item={item} />)})}
+        {productObj.map((item)=>{ return (<ProductCard {...item} />)})}
       </div>
       <div className="view-more">
         <button class="view-more-button">View More</button>

@@ -1,7 +1,6 @@
 import React from "react";
 
-const ProductCard = ({item}) => {
-  const {profilePic, userName, dateModified, prodImg, prodTitle, prodPrice, prodCondition, prodLikes, freeShipping, carouProtect} = item;
+const ProductCard = ({profilePic, userName, dateModified, prodImg, prodTitle, prodPrice, prodCondition, prodLikes, freeShipping, carouProtect}) => {
   return <div className="prod-card-wrapper">
     <div className="prod-card">
       <div className="prod-card-content">
