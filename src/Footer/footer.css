@@ -1,0 +1,204 @@
+.root {
+
+    flex: 1;
+    flex-flow: column nowrap;
+    min-height: 100%;
+    margin: 0;
+    overflow: auto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #57585a;
+}
+
+.D_cw {
+    display: flex;
+    flex: 1;
+}
+
+
+.D_iz {
+    flex: 1;
+}
+
+.D_wrapper {
+    margin-top: 100px;
+    margin-bottom: 16px;
+}
+
+.D_oN {
+    padding-top: 100px;
+    padding-bottom: 64px;
+    width: 100%;
+    position: relative;
+    display: grid;
+    align-items: center;
+    background-size: cover;
+}
+
+.D_oP {
+    grid-area: 2;
+    justify-self: end;
+}
+
+.D_oR {
+    grid-area: right;
+    width: 100%;
+}
+
+.D_oQ {
+    height: auto;
+}
+
+.D_f_ {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.D_fn {
+    font-size: 38px;
+    line-height: 46px;
+    font-weight: 600;
+    text-align: left;
+    overflow: hidden;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    text-overflow: ellipsis;
+    color: #fff;
+}
+.D_oS {
+    text-align: left;
+    display: flex;
+}
+.D_oU {
+    display: inline-block;
+}
+.D_f_ {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.D_oV {
+    display: inline-block;
+    width: 15%;
+    margin-left: 16px;
+    border: 8px solid #fff;
+    border-radius: 8px;
+}
+
+.D_oT {
+    margin: 24px 0;
+}
+.D_hp {
+    font-size: 20px;
+    line-height: 28px;
+}
+.D_ez {
+    color: hsla(0,0%,100%,.9);
+}
+.D_hK {
+    font-weight: 400;
+}
+.D_hI {
+    text-align: left;
+}
+.D_hG {
+    white-space: normal;
+}
+.D_hC {
+    word-break: normal;
+    overflow-wrap: normal;
+}
+.D_h_ {
+    text-decoration: none;
+}
+.D_hz {
+    overflow: hidden;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    text-overflow: ellipsis;
+}
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+}
+
+/* foooter */
+
+.D_pm, .D_pn {
+    display: flex;
+    padding: 0 25px;
+}
+.D_pm {
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.D_qC {
+    margin-right: 24px;
+}
+
+.D_qy {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin: 28px 0 24px;
+}
+
+.D_q_, .D_qz {
+    display: flex;
+    align-items: center;
+}
+
+.D_qA {
+    width: 24px;
+    min-width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.D_qE, .D_qF {
+    display: flex;
+}
+.D_qE {
+    flex-wrap: wrap;
+}
+
+.D_qE, .D_qF {
+    display: flex;
+}
+
+.D_qG {
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+}
+.D_f_ {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.D_f_.D_fA .D_fC {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.D_fA:after {
+    display: block;
+    padding-top: 100%;
+    content: "";
+}
+
+.D_qI {
+    display: flex;
+    margin-left: 32px;
+}
