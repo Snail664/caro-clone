@@ -1,0 +1,150 @@
+.section-header {
+    display: flex;
+    text-align: left;
+    font-weight: 500;
+    font-size:x-large;
+    margin-bottom: 30px;
+}
+
+.product-section {
+    margin: 0px 75px;
+}
+
+.slashed-price-carousel-row {
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 17%;
+    margin: 10px 0px;
+    margin-right: 60px;
+}
+
+.slashed-price-carousel-row .prod-card-img {
+    height: 200px;
+    margin-top: 10px;
+    max-width: 200px;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.slashed-price-carousel-row .prod-card {
+    max-width: 210px;
+}
+
+.slashed-price-carousel-row .carou-protect-badge {
+    top: 177px;
+}
+
+.prod-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.prod-card-wrapper {
+    display: flex;
+    flex: 1 0 21%;
+    justify-content: center;
+}
+
+.prod-card {
+    transition: box-shadow .3s;
+    display: flex;
+    flex-direction: column;
+    max-width: 310px;
+    border-radius: 5px;
+    position: relative;
+    flex: 0 0 100%;
+}
+
+.prod-card:hover {
+    box-shadow: 0.25px 0.25px 5px 0px grey;
+}
+
+.prod-card-content {
+    margin: 10px 5px;
+}
+
+div.prod-card-header {
+    display: flex;
+    text-align: left;
+}
+
+.prod-card-profile-img {
+    max-width: 35px;
+    border-radius: 45px;
+}
+
+.prod-card-header-username {
+    font-weight: bold;
+    margin-bottom: 2.5px;
+}
+
+.prod-card-header-desc {
+    margin-left: 10px;
+    font-size: small;
+}
+
+.prod-card-img {
+    height: 300px;
+    margin-top: 10px;
+    max-width: 300px;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.prod-card-img-wrapper {
+    position:relative;
+}
+
+.carou-protect-badge {
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    top: 277px;
+    left: 5px;
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 2.5px 10px;
+}
+
+.carou-protect-badge img {
+    max-width: 20px;
+}
+
+.prod-card-body {
+    display:flex;
+    flex-direction: column;
+    text-align:left;
+}
+
+.prod-card-price {
+    font-weight:bold;
+}
+
+.prod-card-body-likes {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.like-count {
+    margin-left: 5px;
+}
+
+.view-more-button {
+    transition: background-color 0.5s;
+    background-color: transparent;
+    border-color: lightgray;
+    border-radius:5px;
+    border-width:1px;
+    padding: 10px 22px;
+    font-weight: 500;
+    font-size:medium;
+}
+
+.view-more-button:hover {
+    transition: background-color 0.5s;
+    background-color: lightgray;
+}
