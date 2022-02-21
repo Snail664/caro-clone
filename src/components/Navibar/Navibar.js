@@ -28,7 +28,7 @@ const Navibar = () => {
             <NavBtn>
                 <NavBtnLink to="/signin">Sign In</NavBtnLink>
             </NavBtn>
-        </Nav> */}
+        </Nav>
 
         <Navbar bg="dark" expand="lg">
         <Container>
@@ -57,7 +57,7 @@ const Navibar = () => {
             </Nav>
             </Navbar.Collapse>
         </Container>
-        </Navbar>
+        </Navbar> */}
     </>
   )
 }

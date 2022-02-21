@@ -1,0 +1,122 @@
+.blockMenu {
+    overflow: hidden;
+    background-color: #333;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.blockMenu a {
+    float: left;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdownMenu {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdownMenu .dropdownButton {
+    font-size: 14px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.blockMenu a:hover, .dropdownMenu:hover .dropdownButton {
+    background-color: gray;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    left: 0px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdownContent a {
+    float: none;
+    color: black;
+    padding: 4px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* .dropdownContent a:hover {
+    color: #00ff99;
+    background-color: #f9f9f9 !important;
+} */
+
+.menuItem a:hover {
+    color: #008f79;
+    background-color: #f9f9f9 !important;
+    text-decoration: underline;
+}
+
+.menuItem a {
+    color: black;
+    background-color: #f9f9f9 !important;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.menuHeading a {
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-left: 0px;
+    display: inline-block;
+    text-align: left !important;
+}
+
+.dropdownMenu:hover .dropdownContent {
+    display: block !important;
+}
+
+.dropdownTable td {
+    vertical-align: top;
+}
+
+.dropdownTable th {
+    width: 250px;
+    text-align: left;
+}
+
+.rightButtons {
+    font-size: 14px;
+    float: right;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.icon {
+    height: 12%;
+    width: 12%;
+    align-items: left !important;
+}
+
+.icon img {
+    display: inline-block;
+    align-items: left !important;
+}
+
+.subheadingIcon {
+    display: inline-block;
+    height: 12%;
+    width: 12%;
+    align-items: left !important;
+}

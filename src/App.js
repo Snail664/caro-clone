@@ -7,9 +7,9 @@ import React from 'react';
 /* import ProductList from "./ProductsList/ProductsList";
 import Gallery from "./Gallery"; */
 import Footer from "./Footer";
-import Navibar from './components/Navibar';
+import Navibar from './components/Navibar/Navibar';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Home from './pages'
+import Home from './pages/Home'
 import About from './pages/about'
 
 function App() {
