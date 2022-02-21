@@ -1,9 +1,18 @@
 import React from 'react'
+import BlackBar from "../BlackBar/BlackBar";
+import WhiteBar from "../WhiteBar/WhiteBar";
+import CategorySlider from "../CategorySlider/CategorySlider";
+import ProductList from "../ProductsList/ProductsList";
+import Gallery from "../Gallery";
 
 const Home = () => {
   return (
-    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '90vh'}}>
-        <h1>Home</h1>
+    <div>
+      {/* <BlackBar /> */}
+      <WhiteBar />
+      <Gallery />
+      <CategorySlider />
+      <ProductList />
     </div>
   )
 }
