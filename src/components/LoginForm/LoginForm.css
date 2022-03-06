@@ -1,0 +1,179 @@
+.form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.input-container {
+    padding: 0 16px;
+    border: 1px solid #C5C5C6;
+    border-radius: 4px;
+    height: 44px;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.input-field {
+    width: 100%;
+    height: 44px;
+    margin: 0;
+    background: transparent;
+    border: 0;
+}
+
+.text-container {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #57585A;
+    font-weight: 400;
+    text-align: left;
+}
+
+.own-account-text {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+}
+
+.login-prompt {
+    font-size: 16px;
+    line-height: 20px;
+    color: #2C2C2D;
+    font-weight: 400;
+}
+
+.login-hyperlink {
+    font-size: 16px !important;
+    line-height: 20px !important;
+    color: #008F79 !important;
+    font-weight: 600;
+    padding: 0 0 0 4px !important;
+    text-decoration: none;
+}
+
+.login-hyperlink a {
+    background-color: white !important;
+}
+
+.text-container {
+    font-size: 14px !important;
+    line-height: 20px !important;
+    color: #57585A !important;
+    font-weight: 400;
+    text-align: left;
+    padding: 0 4px 0 4px !important;
+    display: flex;
+}
+
+.fine-print {
+    font-size: 12px;
+    line-height: 20px !important;
+    color: #57585A !important;
+    font-weight: 400;
+    text-align: left;
+    padding: 0 4px 0 4px !important;
+    display: flex;
+}
+
+.small-links {
+    font-size: 12px !important;
+    line-height: 20px !important;
+    color: #57585A !important;
+    font-weight: 400;
+    text-align: left;
+    padding: 0 4px 0 4px !important;
+    text-decoration: underline !important;
+}
+
+.spacer {
+    margin-top: 24px;
+}
+
+.dropdown {
+    padding: 4px 24px 4px 0px;
+    width: 100%;
+    height: 42px;
+    border: 0;
+}
+
+.signup-button {
+    width: 100%;
+    border: 0px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    background-color: #008F79;
+    height: 44px;
+    font-weight: 400 !important;
+}
+
+.facebook-button {
+    width: 100%;
+    border: 0px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    background-color: #4567B2;
+    height: 44px;
+    font-weight: 400 !important;
+}
+
+.or-spacer {
+    width: 12px;
+    height: 1px;
+    background: #F0F1F1;
+}
+
+.or-text-div {
+    padding: 16px 8px 0 8px;
+}
+
+.or-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #57585A;
+    font-weight: 400;
+}
+
+.mobile-number-container {
+    border: 1px solid #C5C5C6;
+    border-radius: 4px;
+    height: 44px;
+    font-size: 16px;
+    line-height: 16px;
+    display: flex;
+}
+
+.area-code {
+    font-size: 14px;
+    font-weight: 400 !important;
+    line-height: 1.5;
+    color: #57585A;
+    flex: 0 1 auto;
+    align-items: center !important;
+    padding: 8px;
+    width: 66.68px;
+    border-right: 1px solid #C5C5C6;
+    align-items: center;
+}
+
+.mobile-input-field {
+    padding: 0 15px;
+    width: 299.25px !important;
+}
+
+.verify-button {
+    flex: 0 1 auto;
+    border: 0px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #FFFFFF;
+    background-color: #008F79;
+    width: 73.48px;
+}
+
+.facebook-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 4px;
+}
